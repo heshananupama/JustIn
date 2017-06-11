@@ -106,11 +106,11 @@
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav side-nav">
                 <li >
-                    <a href="{{url('/Hotel/home')}}"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
+                    <a href="{{url('/hotels/home')}}"><i class="fa fa-fw fa-dashboard"></i> Dashboard</a>
                 </li>
 
                 <li>
-                    <a href="{{url('/Hotel/bookings')}} "><i class="fa fa-fw fa-bookmark"></i> Bookings</a>
+                    <a href="  "><i class="fa fa-fw fa-bookmark"></i> Bookings</a>
                 </li>
 
                 <li>
@@ -122,7 +122,7 @@
                 </li>
 
                 <li>
-                    <a href="{{url('/Hotel/enquiries')}}"><i class="fa fa-fw fa-file"></i> Enquiries</a>
+                    <a href=" "><i class="fa fa-fw fa-file"></i> Enquiries</a>
                 </li>
                 <li>
                     <a href="{{url('/hotels/contact')}}"><i class="fa fa-fw fa-user"></i> Profile</a>
@@ -142,10 +142,10 @@
                  </li>--}}
 
                 <li>
-                    <a href="{{url('/Hotel/reports')}}"><i class="fa fa-fw fa-bar-chart-o"></i> Reports</a>
+                    <a href=" "><i class="fa fa-fw fa-bar-chart-o"></i> Reports</a>
                 </li>
                 <li>
-                    <a href="{{url('/Hotel/charts')}}"><i class="fa fa-fw fa-line-chart"></i> Charts</a>
+                    <a href=" "><i class="fa fa-fw fa-line-chart"></i> Charts</a>
                 </li>
             </ul>
         </div>

@@ -8,14 +8,10 @@
             <!-- Page Heading -->
             <div class="row">
                 <div class="col-lg-12">
-                    <h1 class="page-header">
-                        Dashboard <small>Statistics Overview</small>
+                    <h1 style="text-align: left" class="page-header">
+                         Statistics Overview
                     </h1>
-                    <ol class="breadcrumb">
-                        <li class="active">
-                            <i class="fa fa-dashboard"></i> Dashboard
-                        </li>
-                    </ol>
+
                 </div>
             </div>
             <!-- /.row -->
@@ -32,7 +28,7 @@
                                     <i class="fa fa-comments fa-5x"></i>
                                 </div>
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge">3</div>
+                                    <div class="huge">2</div>
                                     <div>Total Reviews!</div>
                                 </div>
                             </div>
@@ -59,7 +55,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="{{url('/retailer/orders')}}">
+                        <a href="">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
@@ -81,7 +77,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="{{url('/retailer/enquiries')}}">
+                        <a href=" ">
                             <div class="panel-footer">
                                 <span class="pull-left">View Details</span>
                                 <span class="pull-right"><i class="fa fa-arrow-circle-right"></i></span>
