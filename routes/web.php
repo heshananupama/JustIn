@@ -29,6 +29,8 @@ Route::group(['middleware' =>  'App\Http\Middleware\Hotels'], function () {
         return view('Hotels/home');
     });
 
+    Route::get('hotels/bookings', 'reservationController@index');
+
     Route::get('hotels/feedback', function () {
         $user_Id = Auth::user()->id;
 
@@ -58,8 +60,16 @@ Route::group(['middleware' =>  'App\Http\Middleware\Hotels'], function () {
             return view('Hotels/gallery')->with('images',$images);
 
      });
+
     Route::post("/hotels/gallery/image", 'contactController@imageSave');
 
     Route::post("hotels/contact/save", 'contactController@store');
+
+});
+
+
+Route::get('/init', function () {
+
+    return view('Hotels/init');
 
 });

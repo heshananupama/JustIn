@@ -110,7 +110,7 @@
                 </li>
 
                 <li>
-                    <a href="  "><i class="fa fa-fw fa-bookmark"></i> Bookings</a>
+                    <a href="{{url('/hotels/bookings')}}  "><i class="fa fa-fw fa-bookmark"></i> Bookings</a>
                 </li>
 
                 <li>
@@ -189,6 +189,7 @@
 <script src="/Hotel/js/plugins/morris/morris.min.js"></script>
 <script src="/Hotel/js/plugins/morris/morris-data.js"></script>
 <script src="/js/scripts.js"></script>
+<script src="/resources/assets/js/bootstrap.js"></script>
 
 <link href="/Hotel/css/jquery-ui.css" rel="stylesheet">
 

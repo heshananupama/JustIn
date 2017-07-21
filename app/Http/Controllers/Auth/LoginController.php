@@ -19,12 +19,15 @@ class LoginController extends Controller
     */
 
     use AuthenticatesUsers;
+    protected $maxLoginAttempts = 5; // Amount of bad attempts user can make
+    protected $lockoutTime = 300; // Time for which user is going to be blocked in seconds
 
     /**
      * Where to redirect users after login.
      *
      * @var string
      */
+
     protected $redirectTo = '/home';
 
     /**
